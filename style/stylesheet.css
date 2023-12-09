@@ -1,0 +1,136 @@
+body{
+    font-family: tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    line-height: 1.6;
+
+}
+#centralize{
+    background-color: #eeeeee;
+    padding: 1.5em;
+    box-shadow: 0px 0px 1px #000;
+}
+h1{
+    position: relative;
+    top: 100px;
+    left: 30px;
+    color: #ffffff;
+    background-color: #e03636;
+    border-radius: 10px;
+    width: 60%;
+    text-align: center;
+}
+h2{
+    margin-top: 1.5em;
+    
+}
+h3{
+    color: #464646;
+}
+p{
+    color: #555555;
+}
+a{
+    color: #be2020;
+    text-decoration: none;
+}
+.logo_info::after{
+    content: "Nintendo Official Site";
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+    color: #a0a0a0;
+}
+#centralize{
+    margin: 20px auto;
+    width: 1024px;
+}
+
+.header_top{
+    height: 50px;
+    position: relative;
+}
+.logo{
+    margin: 3px 0px 0px 10px;
+    width: 2.5em;
+    transform: scale(1);
+    filter:brightness(1);
+    transition: all .2s ease-in-out;
+}
+.logo:hover{
+    transform: scale(1.2);
+    filter: brightness(1.2);
+}
+.header_nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+.header_nav ul{
+    margin: 0;
+    padding: 0;
+}
+.header_nav li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 0 15px 0 0;
+    padding: 13px;
+}
+.header_nav a{
+    color: #5e5e5e;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 3px;
+    transition: color .3s linear;
+}
+.header_nav a:hover{
+    color: #3359d6;
+}
+.home_image{
+    margin-bottom: 200px;
+    border-radius: 30px;
+}
+.home_image, img{
+    width: 100%;
+}
+video{
+    width: 100%;
+    background-color: #3359d6;
+    padding: 5px;
+    border-radius: 5px;
+}
+object{
+    width: 100%;
+}
+.gallery{
+    color: #555555;
+    padding: 0px 100px 50px 100px;
+}
+.gallery_tittle{
+    color: #fff;
+}
+.gallery_card{
+    width: 32%;
+    display: inline-block;
+    text-align: center;
+    padding: 3px;
+    background-color: #dfdfdf;
+    border-radius: 10px;
+    transition: background .2s ease-in;
+}
+.gallery_card:hover{
+    background-color: #52e036;
+}
+.controllerN64{
+    width: 25%;
+    float: right;
+    border-radius: 5px;
+}
+audio{
+    width: 100%;
+    display: inline-flex;
+    padding: 3px;
+}
